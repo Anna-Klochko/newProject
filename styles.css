@@ -1,6 +1,15 @@
-.first{
+.menu{
   font-family: Roboto;
 }
-.second{
+.main__subtitle{
+  font-family: Roboto;
+}
+.main__button{
+  font-family: Roboto;
+}
+.logo{
+  font-family: PT Serif;
+}
+.main__title{
   font-family: PT Serif;
 }
