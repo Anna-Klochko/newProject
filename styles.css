@@ -1,5 +1,7 @@
 .menu{
   font-family: Roboto;
+  display: flex;
+  align-items: center;
 }
 .main-content__subtitle{
   font-family: Roboto;
@@ -12,4 +14,26 @@
 }
 .main-content__title{
   font-family: PT Serif;
+}
+
+body{
+  margin: 0;
+}
+.header, .main__section{
+  margin: auto;
+  width: 80%;
+  border: dashed 1px red;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+.logo{
+  padding: 40px 0;
+}
+.menu__item{
+  padding: 0 13px;
+}
+.menu__item:last-child{
+  padding-right: 0;
 }
