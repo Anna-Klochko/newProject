@@ -10,10 +10,11 @@
   font-family: Roboto;
 }
 .logo{
-  font-family: PT Serif;
+  padding: 40px 0;
+  font-family: 'pt_serifregular',arial,helvetica,sans-serif;
 }
 .main-content__title{
-  font-family: PT Serif;
+  font-family: 'PT Serif';
 }
 
 body{
@@ -22,7 +23,6 @@ body{
 .header, .main__section{
   margin: auto;
   width: 80%;
-  border: dashed 1px red;
 }
 .header{
   display: flex;
