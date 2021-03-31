@@ -10,12 +10,9 @@
   font-family: Roboto;
 }
 .logo{
-  /*padding: 40px 0;*/
-  /*font: bold 24px/31px 'pt_serifregular',arial,helvetica,sans-serif;*/
   width: 190px;
   height: 35px;
-  /*border: dashed 1px red;*/
-  background: url('img/logo');
+  background:  url('img/logo.svg');
 }
 .main-content__title{
   font-family: 'PT Serif';
