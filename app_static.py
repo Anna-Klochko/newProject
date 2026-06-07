@@ -314,7 +314,7 @@ def tab_finance(selected_months):
     df = get_monthly_df(selected_months)
     deals_df = get_deals_df(selected_months)
 
-    выручка_факт = deals_df[deals_df["Статус"] == "Выплачено"]["Факт"].sum() if not deals_df.empty else 0
+    выручка_факт = df[df["Статья"] == "Выручка"]["Факт р/с"].sum() if not df.empty else 0
     дебиторка    = deals_df[deals_df["Статус"] == "Ожидается"]["Комиссия"].sum() if not deals_df.empty else 0
 
     мар_расходы = 0
